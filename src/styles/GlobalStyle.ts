@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
   * {
@@ -7,6 +8,9 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+  }
+  button {
+    cursor: pointer;
   }
 `
 export const colors = {
